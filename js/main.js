@@ -9,12 +9,13 @@ require.config({
         // is using jQuery 1.9.0 located at
         // js/lib/jquery-1.9.0.js, relative to
         // the HTML page.
-        jquery: '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery'
+        jquery: '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery',
+        brokeUp: 'moreFiles/anotherFile'
     }
 });
 
 
-require(["jquery","bootMeUp","useRobots"], function($) {
+require(["jquery","bootMeUp","useRobots","brokeUp"], function($) {
     //the jquery.alpha.js and jquery.beta.js plugins have been loaded.
     $(function() {
        
